@@ -49,8 +49,7 @@ GitHub Copilotを実際に使ってみて、AIによるコーディング支援�
 
 ## 次のラボへ
 
-次は「Copilotのリポジトリカスタム命令」ラボに進みます。
-詳細は [`copilot-instructions-handout-ja.md`](./copilot-instructions-handout-ja.md) を参照してください。
+TBD
 
 ---
 
