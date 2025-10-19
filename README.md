@@ -12,14 +12,14 @@
 ## Day1 (09:00 - 17:00 予定)
 | 時間帯 | コンテンツ (対応ラボ/資料) | 狙い |
 |--------|---------------------------|------|
-| 09:00-13:00 | ・オリエン / 環境最終確認 / Copilot導入 ([Lab0](lab0-copilot-intro-ja.md))<br>・レガシー移行全体像 / 移行パターン概観 ([Planningラボ](planning-for-modernization.md))<br>・Git/GitHub 基礎 & プロンプトの基本 ([Git基礎Lab1](lab1-git-github-basics-ja.md), 補足: [Copilot指示](copilot-instructions-handout-ja.md))<br>・COBOL 断片読解 & 要約 ([COBOL理解ラボ](understanding-existing-cobol-code.md))<br>・質疑 / 遅延調整バッファ | 基礎知識獲得と既存資産理解の土台形成 |
+| 09:00-13:00 | ・はじめに<br>・[GitHub Copilot チャット & エージェントモード入門](lab0-copilot-intro-ja.md)<br>[レガシーシステムとモダナイゼーション全体像](legacy-modernization-overview.md) <br>・[GitHub Copilot を活用したモダナイゼーションのプランニング](planning-for-modernization.md)<br>・[Git & GitHub 基礎ラボ](lab1-git-github-basics-ja.md)<br>・[GitHub Copilot のリポジトリ カスタム命令を追加する](copilot-instructions-handout-ja.md))<br>・[COBOLコード解析ラボ](understanding-existing-cobol-code.md)<br>・質疑 / 遅延調整バッファ | 基礎知識獲得と既存資産理解の土台形成 |
 | 13:00-14:00 | ・昼休憩 | 休息 / バッファ |
 | 14:00-17:00 | ・Java スケルトン/初期テスト生成 ([COBOL→Javaラボ](cobol-to-java-lab.md))<br>・段階的変換 & 小リファクタリング (COBOL→Java継続)<br>・Day1 ふりかえり (KPT / 改善抽出) | 生成→検証サイクル習慣化 / 改善点抽出 |
 
 ## Day2 (09:00 - 17:00 予定)
 | 時間帯 | コンテンツ (対応ラボ/資料) | 狙い |
 |--------|---------------------------|------|
-| 09:00-13:00 | ・Day1 振り返り / 目標リセット<br>・追加ロジック変換 / 例外 & ログ設計 (COBOL→Java継続)<br>・DevSecOps 概念 / ポリシー適用例 ([Copilot指示ラボ](copilot-instructions-handout-ja.md))<br>・改善提案→再リファクタ / プロンプト改善 | 品質/セキュリティ・改善サイクル強化 |
+| 09:00-13:00 | ・Day1 振り返り / 目標リセット<br>・追加ロジック変換 / 例外 & ログ設計 (COBOL→Java継続)<br>・[DevSecOps](devsecops.md)<br>・改善提案→再リファクタ / プロンプト改善 | 品質/セキュリティ・改善サイクル強化 |
 | 13:00-14:00 | ・昼休憩 | 休息 / バッファ |
 | 14:00-17:00 | ・テスト強化 & キャラクタリゼーションテスト ([テストラボ](characterization-testing.md))<br>・応用: 他移行パターン概観 / Azure OpenAI 事例紹介（説明のみ）<br>・最終演習: 個別改善短期スプリント (Stretch課題)<br>・総括 / アンケート / Next Step 定義 | 回帰防止体験 / 発展パス提示 / 定着 |
 
