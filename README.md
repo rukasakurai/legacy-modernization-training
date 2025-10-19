@@ -10,18 +10,35 @@
 本研修は 2 日間 (Day1 / Day2) で、座学 → 基礎ハンズオン → 応用/改善 → ふりかえり の学習サイクルを反復しながら、COBOL資産の読み解きと Java への段階的移行、および GitHub Copilot を安全かつ効果的に使う実践力を身につけます。
 
 ## Day1 (09:00 - 17:00 予定)
-| 時間帯 | コンテンツ (対応ラボ/資料) | 狙い |
-|--------|---------------------------|------|
-| 09:00-13:00 | ・はじめに<br>・[GitHub Copilot チャット & エージェントモード入門](lab0-copilot-intro-ja.md)<br>[レガシーシステムとモダナイゼーション全体像](legacy-modernization-overview.md) <br>・[GitHub Copilot を活用したモダナイゼーションのプランニング](planning-for-modernization.md)<br>・[Git & GitHub 基礎ラボ](lab1-git-github-basics-ja.md)<br>・[GitHub Copilot のリポジトリ カスタム命令を追加する](copilot-instructions-handout-ja.md))<br>・[COBOLコード解析ラボ](understanding-existing-cobol-code.md)<br>・質疑 / 遅延調整バッファ | 基礎知識獲得と既存資産理解の土台形成 |
-| 13:00-14:00 | ・昼休憩 | 休息 / バッファ |
-| 14:00-17:00 | ・Java スケルトン/初期テスト生成 ([COBOL→Javaラボ](cobol-to-java-lab.md))<br>・段階的変換 & 小リファクタリング (COBOL→Java継続)<br>・Day1 ふりかえり (KPT / 改善抽出) | 生成→検証サイクル習慣化 / 改善点抽出 |
+
+- 09:00-13:00:
+  - はじめに
+  - [GitHub Copilot チャット & エージェントモード入門](lab0-copilot-intro-ja.md)
+  - [レガシーシステムとモダナイゼーション全体像](legacy-modernization-overview.md) 
+  - [GitHub Copilot を活用したモダナイゼーションのプランニング](planning-for-modernization.md)
+  - [Git & GitHub 基礎ラボ](lab1-git-github-basics-ja.md)
+  - [GitHub Copilot のリポジトリ カスタム命令を追加する](copilot-instructions-handout-ja.md))
+  - [COBOLコード解析ラボ](understanding-existing-cobol-code.md)
+  - 質疑 / 遅延調整バッファ |  |
+- 13:00-14:00: 昼休憩
+- 14:00-17:00
+  - [COBOL→Java変換ラボ](cobol-to-java-lab.md)
+  - 段階的変換 & 小リファクタリング (COBOL→Java継続)
+  - Day1 ふりかえり (KPT / 改善抽出)
 
 ## Day2 (09:00 - 17:00 予定)
-| 時間帯 | コンテンツ (対応ラボ/資料) | 狙い |
-|--------|---------------------------|------|
-| 09:00-13:00 | ・Day1 振り返り / 目標リセット<br>・追加ロジック変換 / 例外 & ログ設計 (COBOL→Java継続)<br>・[DevSecOps](devsecops.md)<br>・改善提案→再リファクタ / プロンプト改善 | 品質/セキュリティ・改善サイクル強化 |
-| 13:00-14:00 | ・昼休憩 | 休息 / バッファ |
-| 14:00-17:00 | ・テスト強化 & キャラクタリゼーションテスト ([テストラボ](characterization-testing.md))<br>・応用: 他移行パターン概観 / Azure OpenAI 事例紹介（説明のみ）<br>・最終演習: 個別改善短期スプリント (Stretch課題)<br>・総括 / アンケート / Next Step 定義 | 回帰防止体験 / 発展パス提示 / 定着 |
+
+- 09:00-13:00
+  - Day1 振り返り
+  - 追加ロジック変換 / 例外 & ログ設計 (COBOL→Java継続)
+  - [DevSecOps](devsecops.md)
+  - 改善提案→再リファクタ / プロンプト改善
+- 13:00-14:00: 昼休憩
+- 14:00-17:00
+  - [キャラクタリゼーション](characterization-testing.md)
+  - 応用: 他移行パターン概観 / Azure OpenAI 事例紹介（説明のみ）
+  - 最終演習: 個別改善短期スプリント (Stretch課題)
+  - 総括 / アンケート / Next Step 定義
 
 ---
 （本概要は事前説明用ドラフトです。参加者スキル状況・時間配分により当日一部変更となる場合があります。）
