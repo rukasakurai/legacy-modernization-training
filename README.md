@@ -13,31 +13,27 @@
 
 - 09:00-13:00:
   - はじめに
-  - [GitHub Copilot チャット & エージェントモード入門](lab0-copilot-intro-ja.md)
-  - [レガシーシステムとモダナイゼーション全体像](legacy-modernization-overview.md) 
-  - [GitHub Copilot を活用したモダナイゼーションのプランニング](planning-for-modernization.md)
-  - [Git & GitHub 基礎ラボ](lab1-git-github-basics-ja.md)
-  - [GitHub Copilot のリポジトリ カスタム命令を追加する](copilot-instructions-handout-ja.md))
-  - [COBOLコード解析ラボ](understanding-existing-cobol-code.md)
+  - [GitHub Copilot チャット & エージェントモード入門](1-github-copilot-intro.md)
+  - [レガシーシステムとモダナイゼーション全体像](2-legacy-modernization-overview.md)
+  - [GitHub Copilot を活用したモダナイゼーションのプランニング](3-planning-for-modernization.md)
+  - [Git & GitHub 基礎ラボ](4-git-github-basics.md)
+  - [GitHub Copilot のリポジトリ カスタム命令を追加する](5-copilot-instructions.md)
   - 質疑 / 遅延調整バッファ |  |
 - 13:00-14:00: 昼休憩
 - 14:00-17:00
-  - [COBOL→Java変換ラボ](cobol-to-java-lab.md)
-  - 段階的変換 & 小リファクタリング (COBOL→Java継続)
+  - [COBOLコード解析ラボ](6-understanding-existing-cobol-code.md)
+  - [COBOL→Java変換ラボ](7-cobol-to-java-lab.md)
   - Day1 ふりかえり (KPT / 改善抽出)
 
 ## Day2 (09:00 - 17:00 予定)
 
 - 09:00-13:00
   - Day1 振り返り
-  - 追加ロジック変換 / 例外 & ログ設計 (COBOL→Java継続)
-  - [DevSecOps](devsecops.md)
-  - 改善提案→再リファクタ / プロンプト改善
+  - [キャラクタリゼーション](8-characterization-testing.md)
+  - [DevSecOps](9-devsecops.md)
 - 13:00-14:00: 昼休憩
 - 14:00-17:00
-  - [キャラクタリゼーション](characterization-testing.md)
-  - 応用: 他移行パターン概観 / Azure OpenAI 事例紹介（説明のみ）
-  - 最終演習: 個別改善短期スプリント (Stretch課題)
+  - [Agentic DevOps](10-agentic-devops.md)
   - 総括 / アンケート / Next Step 定義
 
 ---
