@@ -18,7 +18,7 @@
   - [GitHub Copilot を活用したモダナイゼーションのプランニング](3-planning-for-modernization.md)
   - [Git & GitHub 基礎ラボ](4-git-github-basics.md)
   - [GitHub Copilot のリポジトリ カスタム命令を追加する](5-copilot-instructions.md)
-  - 質疑 / 遅延調整バッファ |  |
+  - 質疑 / 遅延調整バッファ
 - 13:00-14:00: 昼休憩
 - 14:00-17:00
   - [COBOLコード解析ラボ](6-understanding-existing-cobol-code.md)
