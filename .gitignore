@@ -1,4 +1,3 @@
 untracked/
-legacy/
-target/
-pom.xml
+/legacy/
+/pom.xml
