@@ -9,7 +9,8 @@
 ## 事前準備
 1. **Windows + VS Code** を使用
 2. **GitHub Copilot Agent Mode**が有効
-3. [checkerr.cbl](https://www.ibm.com/docs/ja/db2/11.5.x?topic=SSEPGG_11.5.0/com.ibm.db2.luw.apdv.sample.doc/doc/cobol/s-checkerr-cbl.htm) をダウンロードし、ワークスペースに配置
+3. ワークスペース直下の `legacy/` フォルダに [checkerr.cbl](https://www.ibm.com/docs/ja/db2/11.5.x?topic=SSEPGG_11.5.0/com.ibm.db2.luw.apdv.sample.doc/doc/cobol/s-checkerr-cbl.htm) をダウンロードして保存
+4. Java関連ファイルは `src/` フォルダ以下に作成してください（GitHub Copilotに依頼して自動生成する流れを推奨）
 
 ---
 
@@ -20,10 +21,10 @@ COBOLからJavaへの変換はモダナイゼーションの代表的な作業�
 
 ### プロンプト例
 ```
-このコードを Java に翻訳することはできますか? #file:checkerr.cbl
+このコードを Java に翻訳することはできますか? #file:legacy/checkerr.cbl
 ```
 ```
-このコードを Java に翻訳してください。#file:checkerr.cbl
+このコードを Java に翻訳してください。#file:legacy/checkerr.cbl
 ```
 
 ---
@@ -85,7 +86,7 @@ AIによるテスト生成で、品質向上とテスト自動化の体験がで
 
 ## インストラクター向けノート
 > **所要時間目安**
-> - 20–25分
+> - 60-120分
 >
 > **参加者レベル別の工夫**
 > - 経験者：COBOL→Java変換後のテストやリファクタリングまで深掘り
