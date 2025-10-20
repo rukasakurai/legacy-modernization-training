@@ -54,7 +54,6 @@ public class SumCalculator {
 ### 作業
 1. `src/test/java/legacy/SumCalculatorTest.java` を作成
 2. 最低3ケース（基本 / 空 / 負数混在）をテスト
-3. GitHub Copilotに追加ケース（大きな数 / ランダム等）候補を提案してもらう
 
 ---
 
@@ -62,18 +61,12 @@ public class SumCalculator {
 ### 目的
 AI支援でテストケースの網羅性等を高める。
 ### 作業
-1. GitHub Copilotに追加テストケース（境界値・大きな数など）を提案してもらう
-2. テストコードの改善案（重複削減・見やすさ向上など）を依頼する
-3. よくある失敗パターンや注意点をGitHub Copilotに尋ねる
-
-### プロンプト例
-```
-このテストに追加すべきケースや改善点を提案し、実装してください。 #file:src/test/java/legacy/SumCalculatorTest.java
-```
+1. GitHub Copilotに追加入力を提案してもらう（例: エッジケース）
+2. SumCalculator の挙動を観察し、テストケースに追加
 
 ---
 
 ## インストラクター向けノート
 > **所要時間目安**
-> - 25–35分（参加者のJUnit経験により変動）
+> - 60分（参加者のJUnit経験等により変動）
 
