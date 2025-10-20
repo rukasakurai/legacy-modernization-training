@@ -10,7 +10,7 @@ GitHub Copilotは、レガシーシステム移行等に活用できる1つの�
 1. **Windowsを起動**し、デスクトップ画面を表示します。
 2. **Visual Studio Code** を起動します（スタートメニューから「Visual Studio Code」を検索してクリック）。
 3. 必要に応じて、**GitHubアカウントでサインイン**します。
-4. 「OpenChat」をクリックし、**GitHub CopilotのChatウィンドウ**を開きます。
+4. 「Open Chat」をクリックし、**GitHub CopilotのChatウィンドウ**を開きます。
 
 ---
 
@@ -26,7 +26,7 @@ GitHub Copilotは、レガシーシステム移行等に活用できる1つの�
 ---
 
 ## ラボ2 — GitHub Copilot Agent Modeでファイルを作成してみよう（プラクティス）
-1. 「Agent Mode」に切替、Chatに「READMEファイルを作成して 'hello world' と書いてください」と入力してみましょう。
+1. 「Agent」モードに切替、Chatに「READMEファイルを作成して 'hello world' と書いてください」と入力してみましょう。
 2. 実際にファイルが作成される様子を確認します。
 3. 続けて「JavaでHello Worldアプリを作成してください」と入力し、ファイルの生成やコードの内容を確認しましょう。
 
