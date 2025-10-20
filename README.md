@@ -18,11 +18,12 @@
   - [GitHub Copilot を活用したモダナイゼーションのプランニング](3-planning-for-modernization.md)
   - [Git & GitHub 基礎ラボ](4-git-github-basics.md)
   - [GitHub Copilot のリポジトリ カスタム命令を追加する](5-copilot-instructions.md)
-  - 質疑 / 遅延調整バッファ
+  - 自由演習/ 質疑 / バッファ
 - 13:00-14:00: 昼休憩
 - 14:00-17:00
-  - [COBOLコード解析ラボ](6-understanding-existing-cobol-code.md)
-  - [COBOL→Java変換ラボ](7-cobol-to-java-lab.md)
+  - [COBOLコード解析](6-understanding-existing-cobol-code.md)
+  - [COBOL→Java変換](7-cobol-to-java-lab.md)
+  - 自由演習/ 質疑 / バッファ
   - Day1 振り返り (KPT / 改善抽出)
 
 ## Day2 (09:00 - 17:00 予定)
@@ -32,9 +33,11 @@
   - [キャラクタリゼーションテスト](8-characterization-testing.md)
   - [TDD - Test-Driven Development](9-tdd.md)
   - [DevSecOps](10-devsecops.md)
+  - 自由演習/ 質疑 / バッファ
 - 13:00-14:00: 昼休憩
 - 14:00-17:00
   - [Agentic DevOps](11-agentic-devops.md)
+  - 自由演習/ 質疑 / バッファ
   - まとめ と 振り返り
 
 ---

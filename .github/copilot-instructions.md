@@ -20,3 +20,6 @@ All content intended for human readers of this repository (such as documentation
 ## Terminology
 
 - Always use "GitHub Copilot" instead of the abbreviation "Copilot" in all documentation, comments, and communications. Do not use the short form "Copilot".
+
+## Security
+Azureに接続する際はシークレットではなく、キーレス認証を使ってください。
