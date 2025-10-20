@@ -48,6 +48,6 @@
 5. 良いプロンプト（目的/制約/期待形式/検証手段）の基本パターンを運用できる
 
 ## 前提条件（参加者）
-- GitHub アカウント / Copilot ライセンス有効
-- OpenJDK 21 & VS Code & Git が動作確認済み
+- GitHub アカウント / GitHub Copilot ライセンス有効
+- OpenJDK 21 & Maven & VS Code & Git が動作確認済み
 - Java または他言語での基本的プログラミング経験（未経験者は補助資料でキャッチアップ可）

@@ -11,7 +11,7 @@
 1. **Windows + VS Code** を使用
 2. 拡張機能がインストール済み：
    - Extension Pack for Java (または個別に Java 拡張一式)
-   - GitHub Copilot / GitHub Copilot Chat / Copilot Agent Mode
+   - GitHub Copilot / GitHub Copilot Chat / GitHub Copilot Agent Mode
 3. **Java 21 (または 17 以上)** が `java -version` で利用可能
 4. **Maven** がインストール済み（`mvn -v`）
 5. ワークスペースフォルダを VS Code で開いている
@@ -29,12 +29,12 @@
 ---
 
 ## ラボ全体の流れ（概要）
-1. Maven プロジェクトを作成（Copilot支援も可）
+1. Maven プロジェクトを作成（GitHub Copilot支援も可）
 2. 最初のテストクラス作成（Red）
 3. 最小実装（Green）
 4. 追加テストと機能拡張（Red → Green 繰り返し）
 5. リファクタリング（必要なら）
-6. Copilot によるテスト生成支援の比較
+6. GitHub Copilot によるテスト生成支援の比較
 
 ---
 
@@ -45,7 +45,7 @@
 
 ### 手順
 1. VS Code のターミナル（PowerShell）で空のディレクトリを作成（任意）
-2. Copilot Agent Mode で以下のように依頼（例）：
+2. GitHub Copilot Agent Mode で以下のように依頼（例）：
    ```
    Java 21 を想定した最小の Maven プロジェクトを作成してください。JUnit 5 を使えるようにしてください。ディレクトリ構成も含めて生成して。
    ```
@@ -81,7 +81,7 @@
 
 ### 手順
 1. `src/test/java` に `StringCalculatorTest` を作成
-2. 空のテストメソッドを書き始めて Copilot の提案を誘発：
+2. 空のテストメソッドを書き始めて GitHub Copilot の提案を誘発：
    ```java
    import org.junit.jupiter.api.Test;
    import static org.junit.jupiter.api.Assertions.*;
@@ -162,7 +162,7 @@
 ## ラボ5 — 3番目: リスト中の最大値取得 max(List<Integer>)
 
 ### なぜ？
-少し複雑な処理で Copilot の補完力を確認します。
+少し複雑な処理で GitHub Copilot の補完力を確認します。
 
 ### 手順
 1. テストから書く：
@@ -174,7 +174,7 @@
        assertEquals(99, result);
    }
    ```
-2. Copilot に実装を提案させるため `max` を呼び出した後に `StringCalculator` クラスへ移動し、`public int max(List<Integer> values)` と書き始める
+2. GitHub Copilot に実装を提案させるため `max` を呼び出した後に `StringCalculator` クラスへ移動し、`public int max(List<Integer> values)` と書き始める
 3. 期待候補例：
    ```java
    public int max(java.util.List<Integer> values) {
@@ -190,7 +190,7 @@
 
 ---
 
-## ラボ6 — Copilot にテスト生成を丸ごと頼んで比較
+## ラボ6 — GitHub Copilot にテスト生成を丸ごと頼んで比較
 
 ### なぜ？
 人間が逐次書いた場合との「網羅性」「命名」「冗長さ」の違いを比較し、AI 提案を取捨選択する姿勢を学ぶため。
@@ -216,7 +216,7 @@
 
 ---
 
-## Copilot プロンプト例（貼って使える）
+## GitHub Copilot プロンプト例（貼って使える）
 ```
 add メソッドのテストを Arrange / Act / Assert コメント付きで改善してください。
 ```
@@ -238,7 +238,7 @@ TDD の Red/Green/Refactor の各段階で注意すべきポイントを簡潔�
 - [ ] 最小実装でテストを通した
 - [ ] `concat` 機能を TDD で追加した
 - [ ] `max` 機能を TDD で追加した
-- [ ] Copilot に追加テスト案を依頼した
+- [ ] GitHub Copilot に追加テスト案を依頼した
 - [ ] （任意）リファクタリング後もテストが通ることを確認した
 
 ---
@@ -247,7 +247,7 @@ TDD の Red/Green/Refactor の各段階で注意すべきポイントを簡潔�
 
 ## まとめ
 - TDD は「テスト先行で仕様を固定 → 最小実装 → 安全な改善」のリズム
-- Copilot は「型/定型/反復」の補完を高速化し、人は仕様・品質・意図へ集中できる
+- GitHub Copilot は「型/定型/反復」の補完を高速化し、人は仕様・品質・意図へ集中できる
 - 提案を無批判に受け入れず、目的（読みやすさ / 網羅性 / シンプルさ）で判断する姿勢が重要
 
 ---
@@ -259,7 +259,7 @@ TDD の Red/Green/Refactor の各段階で注意すべきポイントを簡潔�
 ## 次のステップ（発展アイデア）
 - 例外設計（`max` の null / 空対応）をテストドリブンで拡張
 - ParameterizedTest を導入して加算・最大値テストの重複削減
-- Jacoco などカバレッジ計測 → Copilot に「未カバー行へのテスト提案」を依頼
+- Jacoco などカバレッジ計測 → GitHub Copilot に「未カバー行へのテスト提案」を依頼
 - GitHub Actions で CI を追加（Push 時に `mvn test` 実行）
 
 ---
@@ -270,4 +270,4 @@ TDD の Red/Green/Refactor の各段階で注意すべきポイントを簡潔�
 > - 初心者: `add` と `concat` までで区切る  
 > - 中級: 例外ケース / ParameterizedTest まで  
 > - 上級: リファクタリング + ストリーム実装 + 追加境界テスト  
-> **観察ポイント**: Copilot 提案をそのまま貼るのではなく、命名/例外処理/過剰テストを取捨選択できているか
+> **観察ポイント**: GitHub Copilot 提案をそのまま貼るのではなく、命名/例外処理/過剰テストを取捨選択できているか

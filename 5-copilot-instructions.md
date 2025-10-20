@@ -1,11 +1,11 @@
-# GitHub Copilot のリポジトリ カスタム命令を追加する
+# GitHub Copilot のリポジトリ カスタムインストラクションを追加する
 
 ## 学習目標
 - GitHub Copilot用のリポジトリカスタムインストラクションを追加・編集できる
 - インストラクションの適用状況を確認できる
 
 ## この機能とは（ファクト）
-- Copilotのリポジトリカスタムインストラクションは、リポジトリ全体に適用されるガイドラインやルールを記述するファイルです[GitHub Docs: リポジトリのカスタムインストラクションを追加する](https://docs.github.com/ja/copilot/how-tos/configure-custom-instructions/add-repository-instructions)。
+- GitHub Copilotのリポジトリカスタムインストラクションは、リポジトリ全体に適用されるガイドラインやルールを記述するファイルです。[GitHub Docs: リポジトリのカスタムインストラクションを追加する](https://docs.github.com/ja/copilot/how-tos/configure-custom-instructions/add-repository-instructions)
 - ファイル名と場所：`.github/copilot-instructions.md`（リポジトリ直下または.githubディレクトリ内）
 
 
@@ -22,7 +22,7 @@
 このリポジトリの人向けコンテンツ（README, コメント, ドキュメント等）は日本語で記述してください。
 ```
 
-3. GitHub Copilotに支持を出し、日本語で出力されるか確認
+3. GitHub Copilotに指示を出し、日本語で出力されるか確認
 
 4. 任意のインストラクションを追加し、挙動を確認
 
@@ -30,7 +30,7 @@
 ```
 git checkout ブランチ名
 git add .github/copilot-instructions.md
-git commit -m "Add Copilot repository custom instructions"
+git commit -m "Add GitHub Copilot repository custom instructions"
 git push
 ```
 
@@ -39,7 +39,7 @@ git push
 ### チェックリスト
 - [ ] `.github/copilot-instructions.md` を作成した
 - [ ] テンプレートを貼り付けた
-- [ ] Copilotが日本語で出力するか確認した
+- [ ] GitHub Copilotが日本語で出力するか確認した
 
 ## インストラクター向けノート
 > **所要時間目安**

@@ -11,16 +11,16 @@
 | アプリケーションコードの脆弱性 | CodeQLによる脆弱性診断、GitHub Advanced Securityのコードスキャン |
 | セキュリティポリシーの未整備 | GitHub Advanced Securityによるポリシー管理・自動チェック |
 | レビュー漏れ・人的ミス | GitHub Actionsやプルリクエストテンプレートによる自動化・チェックリスト |
-| 安全でないコーディング | Copilotのカスタム指示で安全なコーディングを促進 |
+| 安全でないコーディング | GitHub Copilotのカスタム指示で安全なコーディングを促進 |
 
-## Lab: Copilotを使ったセキュリティ指示の活用
+## Lab: GitHub Copilotを使ったセキュリティ指示の活用
 
 このラボでは、GitHub Copilotのカスタム指示機能を使い、セキュリティ観点（OWASP Top 10など）を意識したコーディングを体験します。
 
 参考: [security-and-owasp.instructions.md](https://github.com/github/awesome-copilot/blob/main/instructions/security-and-owasp.instructions.md)
 
 ### 演習例
-1. Copilotのカスタム指示に「OWASP Top 10に注意して安全なコードを提案してください」と追加する。
+1. GitHub Copilotのカスタム指示に「OWASP Top 10に注意して安全なコードを提案してください」と追加する。
 2. 実際に簡単なWebアプリやAPIのコード生成を試し、セキュリティ面の提案や注意点を確認する。
 3. 生成されたコードに対して、どのようなセキュリティ対策が盛り込まれているかをレビューする。
 
