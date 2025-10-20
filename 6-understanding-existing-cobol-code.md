@@ -9,8 +9,8 @@
 ## 事前準備
 1. **Windows + VS Code** を使用
 2. **GitHub Copilot Agent Mode**が有効
-3. [dbstat.sqb](https://www.ibm.com/docs/ja/db2/11.5.x?topic=SSEPGG_11.5.0/com.ibm.db2.luw.apdv.sample.doc/doc/cobol/s-dbstat-sqb.htm) をダウンロードし、ワークスペースに配置
-4. 必要に応じて [checkerr.cbl](https://www.ibm.com/docs/ja/db2/11.5.x?topic=SSEPGG_11.5.0/com.ibm.db2.luw.apdv.sample.doc/doc/cobol/s-checkerr-cbl.htm) もダウンロード
+3. ワークスペース直下の `legacy/` フォルダに [dbstat.sqb](https://www.ibm.com/docs/ja/db2/11.5.x?topic=SSEPGG_11.5.0/com.ibm.db2.luw.apdv.sample.doc/doc/cobol/s-dbstat-sqb.htm) をダウンロードして保存
+4. 必要に応じて `legacy/` フォルダに [checkerr.cbl](https://www.ibm.com/docs/ja/db2/11.5.x?topic=SSEPGG_11.5.0/com.ibm.db2.luw.apdv.sample.doc/doc/cobol/s-checkerr-cbl.htm) も保存
 
 ---
 
@@ -22,7 +22,7 @@ COBOLプログラムは外部ファイルやライブラリに依存すること
 ### プロンプト例
 補足: ここで GitHub Copilot のチャット変数 `#file:` を使います。指定したファイル内容をプロンプトに参照させたい時に利用します。詳細: https://docs.github.com/ja/copilot/reference/cheat-sheet#chat-variables
 ```
-#file:dbstat.sqb このプログラムの実行に必要な依存関係を解析して下さい。
+#file:legacy/dbstat.sqb このプログラムの実行に必要な依存関係を解析して下さい。
 ```
 
 ---
@@ -47,7 +47,7 @@ COBOLはサブルーチン（PERFORMやCALL）で処理を分割するため、�
 
 ### プロンプト例
 ```
-このファイルに定義されているサブルーチンの説明をしてください。#file:dbstat.sqb
+このファイルに定義されているサブルーチンの説明をしてください。#file:legacy/dbstat.sqb
 ```
 
 ---
