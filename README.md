@@ -23,18 +23,19 @@
 - 14:00-17:00
   - [COBOLコード解析ラボ](6-understanding-existing-cobol-code.md)
   - [COBOL→Java変換ラボ](7-cobol-to-java-lab.md)
-  - Day1 ふりかえり (KPT / 改善抽出)
+  - Day1 振り返り (KPT / 改善抽出)
 
 ## Day2 (09:00 - 17:00 予定)
 
 - 09:00-13:00
   - Day1 振り返り
-  - [キャラクタリゼーション](8-characterization-testing.md)
-  - [DevSecOps](9-devsecops.md)
+  - [キャラクタリゼーションテスト](8-characterization-testing.md)
+  - [TDD](9-tdd.md)
+  - [DevSecOps](10-devsecops.md)
 - 13:00-14:00: 昼休憩
 - 14:00-17:00
-  - [Agentic DevOps](10-agentic-devops.md)
-  - 総括 / アンケート / Next Step 定義
+  - [Agentic DevOps](11-agentic-devops.md)
+　- まとめ と 振り返り
 
 ---
 （本概要は事前説明用ドラフトです。参加者スキル状況・時間配分により当日一部変更となる場合があります。）
