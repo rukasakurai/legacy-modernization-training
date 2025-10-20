@@ -1,4 +1,4 @@
-# COBOLコード解析ラボ
+# COBOLコード解析
 
 ## 学習目標
 - 既存COBOLプログラムの依存関係やサブルーチン構造をGitHub Copilotで解析できる

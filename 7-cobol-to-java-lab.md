@@ -1,4 +1,4 @@
-# COBOL→Java変換ラボ
+# COBOL→Java変換
 
 ## 学習目標
 - 既存COBOLプログラムをGitHub CopilotでJavaコードに変換する体験ができる

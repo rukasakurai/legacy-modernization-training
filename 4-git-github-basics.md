@@ -1,4 +1,4 @@
-# Git & GitHub 基礎ラボ
+# Git & GitHub 基礎
 
 ## 学習目標
 - GitとGitHubの基本ワークフロー（clone, branch, commit, push, pull, PR, review）を体験し、理解できる
