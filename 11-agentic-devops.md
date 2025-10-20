@@ -38,3 +38,7 @@ Azure サンプル（`Azure-Samples/Legacy-Modernization-Agents`）では、レ�
 - Azure AI Document Intelligence（ドキュメントや画像からの情報抽出）
 - Azure Speech Services（音声認識・合成）
 - Azure Monitor（Kusto Query Languageによる時系列異常検知：series_decompose_anomalies関数など）
+
+## インストラクター向けノート
+> **所要時間目安**
+> - 120分

@@ -4,11 +4,12 @@
 - GitHub Copilot用のリポジトリカスタムインストラクションを追加・編集できる
 - インストラクションの適用状況を確認できる
 
-## この機能とは（ファクト）
+## カスタムインストラクションとは
 - GitHub Copilotのリポジトリカスタムインストラクションは、リポジトリ全体に適用されるガイドラインやルールを記述するファイルです。[GitHub Docs: リポジトリのカスタムインストラクションを追加する](https://docs.github.com/ja/copilot/how-tos/configure-custom-instructions/add-repository-instructions)
 - ファイル名と場所：`.github/copilot-instructions.md`（リポジトリ直下または.githubディレクトリ内）
 
-
+## サンプル
+[カスタムインストラクションのサンプル集](https://github.com/github/awesome-copilot/blob/main/README.instructions.md) には様々な例が掲載されています。
 
 ## ラボ — カスタムインストラクションの作成とテスト
 1. `.github/copilot-instructions.md` を作成
@@ -43,8 +44,4 @@ git push
 
 ## インストラクター向けノート
 > **所要時間目安**
-> - 20–25分
->
-> **参加者レベル別の工夫**
-> - 経験者：独自ルール追加や応用例を考える
-
+> - 30分
