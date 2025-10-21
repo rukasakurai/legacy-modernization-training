@@ -92,7 +92,7 @@ git push -u origin feature/自分の名前
 
 1. 先ほど作成したブランチ上で、さらに新しいブランチを作成
 ```
-git checkout -b `feature/自分の名前/experiment`
+git checkout -b feature/自分の名前/experiment
 ```
 2. 任意のファイルを編集（例: README.mdに自己紹介を1行追加）
 3. 変更をステージング
