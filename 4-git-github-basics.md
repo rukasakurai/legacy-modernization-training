@@ -59,7 +59,7 @@ git checkout -b feature/自分の名前
 詳しくは[GitHub公式ドキュメント](https://docs.github.com/ja/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)も参照してください。
 
 ### 手順
-1. 任意のファイルを編集（例: README.mdに自己紹介を1行追加）
+1. 任意のファイルを編集（例: README.mdの自己紹介に更に1行追加）
 2. 変更をステージング
 ```
 git add README.md
