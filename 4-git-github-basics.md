@@ -101,11 +101,11 @@ git add README.md
 ```
 4. commit
 ```
-git commit -m "<コミットメッセージ>"
+git commit -m "Updated README.md"
 ```
 5. push
 ```
-git push -u origin feature/自分の名前/experiment
+git push -u origin feature/自分の名前-experiment
 ```
 
 ---
