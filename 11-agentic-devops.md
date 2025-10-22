@@ -26,11 +26,13 @@ GitHub Copilot（IDE内の補完 / チャット / テスト生成 / 小規模コ
 | ワークフロー自動化 | 多段ワークフローの場合に人が都度介入 | 多段ワークフロー自動化希望 |
 
 #### サンプル: Legacy Modernization Agents リポジトリ
-Azure サンプル（`Azure-Samples/Legacy-Modernization-Agents`）では、レガシー移行を支援する複数エージェント（例: ソース解析役 / 変換候補生成役 / 検証・評価役）をオーケストレーションし、ワークフロー化するアーキテクチャ例が示されています。これにより:
+Azure サンプル（[Azure-Samples/Legacy-Modernization-Agents](https://github.com/Azure-Samples/Legacy-Modernization-Agents)）では、レガシー移行を支援する複数エージェント（例: ソース解析役 / 変換候補生成役 / 検証・評価役）をオーケストレーションし、ワークフロー化するアーキテクチャ例が示されています。これにより:
 - 大量コードに対する分割統治（解析→変換→レビュー）
 - エージェント間の役割分離による説明責任（“誰が何を判断したか”のログ化）
 - 評価ループ（品質スコア / 再試行）による改善トラック
 が可能となり、単純な IDE 内補助を超えた“組織的移行ファクトリ”の足場を構築できます。
+
+[こちら](https://github.com/rukasakurai/Legacy-Modernization-Agents/tree/1-sample-code-hello-world-level/sample-code)では、シンプルなCOBOLアプリをJavaに変換しAzure上で動かした場合のサンプルコード（JavaとIaC）を紹介しています。
 
 ## 生成AI以外のAI活用
 現在は生成AIが注目を集めていますが、生成AI以外のAI技術（OCRや機械学習など）も現場では引き続き有用です。例えば、
