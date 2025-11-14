@@ -47,3 +47,6 @@
 - GitHub アカウント / GitHub Copilot ライセンス有効
 - OpenJDK 21 & Maven & VS Code & Git が動作確認済み
 - Java または他言語での基本的プログラミング経験（未経験者は補助資料でキャッチアップ可）
+
+## 開発者向けリソース
+- [Copilot Spaces Q&A](docs/copilot-spaces.md)
